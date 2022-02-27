@@ -1,6 +1,5 @@
-#=====EJERCICIOS OBLIGATORIOS=====
+print("=====EJERCICIOS OBLIGATORIOS=====")
 
-#EJERCICIO1
 print("=====EJERCICIO1=====")
 A=[1, -1, 3]
 x=[-1]
@@ -25,27 +24,19 @@ for i in A2:
             
 print("C=", C2)
 
-#o tambien se puede hacer asi
-#C2=A2 & B2
-#print("C=",C2)
-
 
 #EJERCICIO3 UNION No funciona cuando parantesis no es de punta
 print("=====EJERCICIO3=====")
-sample_set = {11, 12, 13, 14}
-list_of_num = {10, 11, 12, 13, 14, 15, 16}
+sample_set = {2, -3, 0, 1}
+list_of_num = {-3, 4, 2}
 
 for elem in list_of_num:
     # add each element to the set
     sample_set.add(elem)
 print("C=", sample_set)
 
-#o tambien se puede hacer asi
-#C3=A3 | B3
-#print("C=",C3)
 
 
-#EJERCICIO4
 print("=====EJERCICIO4=====")
 A4 = [2, -3, 0, 1]
 B4 = [-3, 4, 2, 5]
@@ -57,8 +48,17 @@ for item in B4:
 print("C=",C4)
 
 
-#EJERCICIO5
+
 print("=====EJERCICIO5=====")
+A5 = [0, 2, 3]
+B5 = [-1, 1]
+#C5 = [(a, b) for a in A5 for b in B5]
+#Bu boylesi niye calismiyor?
+C5 = []
+for a in A5:
+    for b in B5:
+        C5.append(a+b)
+print("C= " + str(C5))
 
 
 
@@ -66,6 +66,11 @@ print("=====EJERCICIO5=====")
 
 #EJERCICIO 1
 
+A10 = [2, -3, 0, 1]
+
+for i in A10:
+    if i == [i+1]
+    print (curr_el)
         
 #EJERCICIO2
 
